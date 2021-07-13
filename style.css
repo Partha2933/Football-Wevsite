@@ -1,0 +1,40 @@
+#fifa{
+    color: cyan;
+    font-size: 60px ;
+}
+
+.top-design{
+   font-size: 50px;
+}
+#quatar{
+    color: snow;
+    font-size: 30px;
+}
+
+.top-part{
+    display: flex;
+    background-image: url("background1.jpg");
+   
+    
+}
+
+    
+
+.part-1{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2px;
+}
+#link{
+    text-decoration: none;
+    color: thistle;
+    background-image: linear-gradient(red, orange);
+    padding:6px 10px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+#link:hover{
+    font-weight: bold;
+    color: silver;
+}
