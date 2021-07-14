@@ -1,3 +1,5 @@
+/* First part style */
+
 #fifa{
     color: cyan;
     font-size: 60px ;
@@ -13,7 +15,7 @@
 
 .top-part{
     display: flex;
-    background-image: url("background1.jpg");
+    background-image: url("images/background1.jpg");
    
     
 }
@@ -38,3 +40,25 @@
     font-weight: bold;
     color: silver;
 }
+
+/* second part style */
+.players-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 100PX;
+    grid-row-gap: 40px;
+    grid-column-gap: 20px;
+   
+
+}
+.players{
+    width: 50%;
+    margin-left: 22%;
+    margin-right: 10%;
+    padding: 10px;
+    padding-top: 10PX;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey ;
+
+}
+
