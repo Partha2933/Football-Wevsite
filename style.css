@@ -71,3 +71,18 @@
     color: springgreen;
     font-style:initial;
 }
+
+/* -----------------
+    MEDIA QUERIES
+----------------- */
+/* MOBILE DEVICE */
+
+@media only screen and (max-width:688px) {
+    .top-part{
+        flex-direction: column;
+    }
+    .players-grid{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    
+}
