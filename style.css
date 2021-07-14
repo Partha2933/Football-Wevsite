@@ -62,3 +62,12 @@
 
 }
 
+/* third part style */
+
+#ALIGN{
+    text-align: center;
+}
+#FOOTER{
+    color: springgreen;
+    font-style:initial;
+}
